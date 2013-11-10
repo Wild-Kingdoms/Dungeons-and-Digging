@@ -29,6 +29,9 @@ public class Main {
 	public static Item ruby;
 	public static Item sapphire;
 	public static Item crystal;
+	public static Item rubySword;
+	public static Item sapphireSword;
+	public static Item crystalSword;
 
 	// Declaring Init
 	@Init
