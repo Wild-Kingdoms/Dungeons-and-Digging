@@ -26,7 +26,9 @@ public class Main {
 
 	// Telling forge that we are creating these
 
-	public static Item topaz;
+	public static Item ruby;
+	public static Item sapphire;
+	public static Item crystal;
 
 	// Declaring Init
 	@Init
