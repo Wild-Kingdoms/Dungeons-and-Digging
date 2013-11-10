@@ -16,7 +16,7 @@ import cpw.mods.fml.common.registry.LanguageRegistry;
 /*
  * Basic needed forge stuff
  */
-@Mod(modid = "TutorialMod", name = "Tutorial Mod", version = "v1")
+@Mod(modid = "Dungeons-and-Digging", name = "Dungeons and Digging", version = "v1.0")
 @NetworkMod(clientSideRequired = true, serverSideRequired = false)
 public class Main {
 
