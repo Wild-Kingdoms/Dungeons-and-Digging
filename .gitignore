@@ -1,0 +1,10 @@
+*/
+*_*
+
+!wildKingdoms/
+!assets/wildKingdoms/
+!README.md
+
+
+*.bat
+*.sh
