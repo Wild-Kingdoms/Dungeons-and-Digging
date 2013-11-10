@@ -1,9 +1,5 @@
 package wildKingdoms.dungeonsAndDigging; //Package directory
 
-/*
- * Basic importing
- */
-
 import net.minecraft.block.Block;
 import net.minecraft.item.EnumToolMaterial;
 import net.minecraft.item.Item;
