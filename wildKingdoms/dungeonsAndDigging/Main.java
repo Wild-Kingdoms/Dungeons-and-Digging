@@ -35,6 +35,16 @@ public class Main {
 	public static Item rubyAxe;
 	public static Item sapphireAxe;
 	public static Item crystalAxe;
+	public static Item rubyHoe;
+	public static Item sapphireHoe;
+	public static Item crystalHoe;
+	public static Item rubyPickaxe;
+	public static Item sapphirePickaxe;
+	public static Item crystalPickaxe;
+	public static Item rubyShovel;
+	public static Item sapphireShovel;
+	public static Item crystalShovel;
+	
 
 	// Declaring Init
 	@Init
