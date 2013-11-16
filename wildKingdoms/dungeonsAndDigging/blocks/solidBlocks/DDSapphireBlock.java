@@ -11,9 +11,9 @@ import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IconRegister;
 import net.minecraft.creativetab.CreativeTabs;
 
-public class DDSaphireBlock extends Block {
+public class DDSapphireBlock extends Block {
 
-	public DDSaphireBlock(int par1, String texture) {
+	public DDSapphireBlock(int par1, String texture) {
 		super(par1, Material.rock);
 		setCreativeTab(CreativeTabs.tabBlock); // place in creative tabs
 
@@ -21,7 +21,7 @@ public class DDSaphireBlock extends Block {
 
 	// drops when broken with pickaxe
 	public int idDropped(int par1, Random par2Random, int par3) {
-		return Main.saphireBlock.blockID;
+		return Main.sapphireBlock.blockID;
 	}
 
 	public int quantityDropped(Random random) {

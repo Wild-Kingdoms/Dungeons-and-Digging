@@ -31,15 +31,15 @@ public class Main {
 
 	public static Item crystal;
 	public static Item ruby;
-	public static Item saphire;
+	public static Item sapphire;
 	
 	public static Block crystalOre;
 	public static Block rubyOre;
-	public static Block saphireOre;
+	public static Block sapphireOre;
 	
 	public static Block crystalBlock;
 	public static Block rubyBlock;
-	public static Block saphireBlock;
+	public static Block sapphireBlock;
 
 	// Declaring Init
 	@Init
@@ -47,11 +47,13 @@ public class Main {
 		DDBlocks DDBlocksClass = new DDBlocks();
 		DDItems DDItemsClass = new DDItems();
 		
-		DDItemsClass.init(crystal, ruby, saphire, crystalOre, rubyOre, saphireOre);
-		DDBlocksClass.init(crystalOre, rubyOre, saphireOre, crystalBlock, rubyBlock, saphireBlock);
+		DDItemsClass.init(crystal, ruby, sapphire, crystalOre, rubyOre, sapphireOre);
+		DDBlocksClass.init(crystalOre, rubyOre, sapphireOre, crystalBlock, rubyBlock, sapphireBlock);
 		
-		DDItemsClass.recipes(crystal, ruby, saphire, crystalBlock, rubyBlock, saphireBlock);
-		DDBlocksClass.recipes(crystal, ruby, saphire, crystalBlock, rubyBlock, saphireBlock);
+		//DDItemsClass.recipes(crystal, ruby, sapphire, crystalBlock, rubyBlock, sapphireBlock);
+		//DDBlocksClass.recipes(crystal, ruby, sapphire, crystalBlock, rubyBlock, sapphireBlock);
+		
+		GameRegistry.registerWorldGenerator(new OreGenerator());
 	}
 
 }
